@@ -17,7 +17,8 @@ int main() {
     scanf("%d", &b);
 
     printf("Digite a operacao a ser feita (+ - * /): ");
-    scanf(" %c", &operador);  // espaço antes do %c
+    scanf(" %c", &operador);  
+
 
     switch (operador) {
         case '+':
@@ -66,3 +67,4 @@ int divide(int a, int b) {
     }
 
 }
+
